@@ -1,66 +1,21 @@
-## Foundry
+# My Ethernaut Journey
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## About The Ethernaut 
+[The Ethernaut](https://ethernaut.openzeppelin.com/) is an interactive wargame developed by OpenZeppelin that teaches smart contract security through hands-on challenges. Each level presents a vulnerable smart contract that players must exploit to advance, covering key security concepts such as reentrancy, integer overflows, and access control flaws.
 
-Foundry consists of:
+## My Purpose
+This repository documents my solutions and insights as I progress through Ethernaut. My goal is to deepen my understanding of Web3 security, enhance my Solidity auditing skills, and build a strong foundation for secure smart contract development. By sharing my solutions, I aim to reinforce my learning while contributing to the broader security community.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Repository Structure
+All challenge contracts and explanations will be organized under the ./ethernaut-challenges/ folder. Each challenge will include:
 
-## Documentation
+The original contract from Ethernaut
+A detailed explanation of the vulnerability
+The exploit used to complete the challenge
 
-https://book.getfoundry.sh/
+**Disclaimer:** This repository is for educational purposes only. The solutions and insights shared here are intended to help developers understand smart contract security and prevent vulnerabilities. They should not be used for unethical or malicious activities.
 
-## Usage
+### Connect with me
+[X (Twitter)](https://x.com/charliej_dev)
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
+[LinkedIn](https://www.linkedin.com/in/charliej24/)
