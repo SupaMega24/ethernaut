@@ -12,9 +12,9 @@ Open your browser's developer console (usually by pressing F12).
 
 Run the following command in the console to get the address of the CoinFlip contract:
 
-javascript
-Copy
+```js 
 contract.address
+```
 Copy this address. You will need it to deploy your attacking contract.
 
 2. Deploy the CoinFlipAttacker Contract in Remix
